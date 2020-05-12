@@ -1,0 +1,58 @@
+.content{
+background-image:url("http://blog.hostbaby.com/wp-content/uploads/2013/07/scuffedstatic_blue1400x900.jpg");
+/* top:0;
+left:0; */
+}
+.heading{
+font-size: 5vw;
+color:white;
+text-align: center;
+padding:15vw 0 0 0;
+}
+.btn{
+height:2vw;
+width:15vw;
+padding:2vw;
+border-radius: 1vw;
+font-weight:bold;
+
+}
+.buttonn{
+padding-bottom: 15vw;
+text-align: center;
+}
+.paraParent{
+position: fixed;
+top:0;
+left:0;
+width:100%;
+height:100vh;
+display:none;
+}
+.paragraph{
+background-color: white;
+width:60%;
+padding:2vw;
+border-radius: 4vw;
+font-size: 1.5vw;
+margin-left: auto;
+margin-right: auto;
+margin-top: 15%;
+position: relative;
+animation: 2s drop;
+}
+@keyframes drop {
+0%{
+top:-600px;
+}
+100%{
+top:1.6%;
+}
+}
+.x{
+position: absolute;
+right:3.5vw;
+top:1.2vw;
+font-size: 2vw;
+cursor: pointer;
+}
