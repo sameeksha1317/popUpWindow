@@ -1,0 +1,52 @@
+.sec{
+height:45vw;
+width:100%;
+background-image: url("https://static.vecteezy.com/system/resources/previews/000/418/308/original/vector-kids-and-balloons-for-word-teamwork.jpg");
+position: absolute;
+background-repeat:round;
+}
+.content{
+position:relative;
+background-image: url("https://www.incimages.com/uploaded_files/image/1940x900/getty_927720230_371995.jpg");
+background-repeat:round;
+height:18vw;
+width:58vw;
+border-radius: 2vw;
+color:#FFFF00;
+margin-left: auto;
+margin-right: auto;
+animation: 2s drop;
+}
+.contentInner{
+border-radius: 2vw;
+background-color: rgba(0, 0, 0, 0.7);
+height:18vw;
+width:58vw;
+text-align: center;
+font-size: 1.7vw;
+animation:2s drop;
+}
+section{
+font-size: 5vw;
+}
+.text{
+text-align: center;
+font-size: 5vw;
+padding-top: 25vw;
+font-weight: bold;
+color:#8A0829;
+text-shadow: 0.5vw 0.5vw 0.8vw #8A0829 ;
+}
+button{
+height: 3vw;
+width:14vw;
+border-radius: 1vw;
+background-color: pink;
+font-size: 1vw;
+font-weight: bold;
+color:#610B21;
+}
+.contentOuter{
+padding-top: 12vw;
+animation:2s drop;
+}
